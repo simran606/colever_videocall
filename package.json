@@ -1,0 +1,26 @@
+{
+  "name": "video_call",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "react-copy-to-clipboard": "^5.0.3",
+    "simple-peer": "^9.11.0",
+    "socket.io": "^4.1.1",
+    "socket.io-client": "^4.1.1"
+  },
+  "devDependencies": {
+    "emailjs-com": "^2.6.4"
+  }
+}
